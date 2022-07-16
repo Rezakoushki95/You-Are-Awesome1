@@ -43,11 +43,16 @@
                                     <action selector="anotherButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8El-NC-057"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aOE-aF-Ggd">
+                                <rect key="frame" x="16" y="220" width="343" height="427"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="imageView" destination="aOE-aF-Ggd" id="al1-0C-nS1"/>
                         <outlet property="messageLabel" destination="O2b-Rl-IdK" id="2yc-aO-98B"/>
                     </connections>
                 </viewController>
